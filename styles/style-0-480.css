@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px) {
+    .content-block {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .main-heading {
+        font-size: 20px;
+    }
+
+    .field-heading {
+        font-size: 15px;
+    }
+
+    #addBtn {
+        width: 100%;
+        height: 38px;
+    }
+
+    .content-btn__container {
+        display: block;
+    }
+
+    #info {
+        height: 185px;
+    }
+
+    .btn-block {
+        flex-direction: row;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    #delete {
+        margin-top: 0;
+    }
+
+    #nameValue, #info {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}

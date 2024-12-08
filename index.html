@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style-main.css">
+    <link rel="stylesheet" href="./styles/style-0-480.css">
+    <link rel="stylesheet" href="./styles/style-481-768.css">
+    <link rel="stylesheet" href="./styles/style-769-1024.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+</head>
+<body>
+
+    <div class="content-block">
+        <div class="content-block__inner">
+            <h1 class="main-heading">Test</h1>
+
+            <form class="form-group__input">
+                <h5 class="field-heading">Name/Value Pair</h5>
+                <input type="text" id="nameValue" placeholder="Name=Value">
+
+                <button type="button" class="btn" id="addBtn">Add</button>
+            </form>
+
+            <div class="div-group__content">
+                <h5 class="field-heading">Name/Value Pair List</h5>
+                    <div class="content-btn__container">
+                    <div class="info" id="info"></div>
+
+                    <div class="btn-block">
+                    <button type="button" class="btn" id="sortName">Sort By Name</button>
+                    <button type="button" class="btn" id="sortValue">Sort By Value</button>
+                    <button type="button" class="btn" id="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
